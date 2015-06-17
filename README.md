@@ -60,6 +60,6 @@
 [settings/]: settings/
 
 [init.el]: init.el
-[search.el]: search.sh
+[search.sh]: search.sh
 
 [settings.el]: settings/settings.el
