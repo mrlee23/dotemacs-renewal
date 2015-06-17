@@ -30,21 +30,22 @@
 [../init.el] 에서는 [../packages/] 관리까지만 하고 그 다음 단계의 설정은 [settings.el] 로 넘겨주기 때문에 [../packages/] 내의 패키지들은 이맥스 내장 패키지 처럼 작동하게 되어있다.
 
 * 논리적인 로딩 순서
-	1. 상위 디렉토리
-	   1. [../init.el] 실행
-	   2. [../packages/load-packages.el] 실행
-	2. 현재 디렉토리
-	   1. [settings.el] 실행
-	   2. [first-settings.el] 실행
-	5. [var/var.el] 실행
-	6. [lib/lib.el] 실행
-	7. [plugin/plugin.el] 실행
-	8. [data/data.el] 실행
-	9. [default/default.el] 실행
-	10. [keymap/keymap.el] 실행
-	11. [syntax/syntax.el] 실행
-	12. _[test/test.el]_ 선택적 실행
-	13. [last-settings.el] 실행
+
+1. 상위 디렉토리
+   1. [../init.el] 실행
+   2. [../packages/load-packages.el] 실행
+2. 현재 디렉토리
+   1. [settings.el] 실행
+   2. [first-settings.el] 실행
+5. [var/var.el] 실행
+6. [lib/lib.el] 실행
+7. [plugin/plugin.el] 실행
+8. [data/data.el] 실행
+9. [default/default.el] 실행
+10. [keymap/keymap.el] 실행
+11. [syntax/syntax.el] 실행
+12. _[test/test.el]_ 선택적 실행
+13. [last-settings.el] 실행
 
 ### 디렉토리 설명
 ---
