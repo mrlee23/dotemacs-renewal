@@ -33,10 +33,10 @@
 
 #### 논리적인 로딩 순서
 
-1. **상위 디렉토리** ( [.emacs.d/] )
+1. **상위 디렉토리** ([.emacs.d/])
    1. [../init.el] 실행
    2. [../packages/load-packages.el] 실행
-2. **현재 디렉토리** ( [.emacs.d/settings/] )
+2. **현재 디렉토리** ([.emacs.d/settings/])
    3. [settings.el] 실행
    4. [first-settings.el] 실행
 3. **하위 디렉토리**
@@ -48,7 +48,7 @@
    10. [keymap/keymap.el] 실행
    11. [syntax/syntax.el] 실행
    12. \[ _[test/test.el]_ ***선택적 실행*** \]
-4. **다시 현재 디렉토리** ( [.emacs.d/settings/] )
+4. **다시 현재 디렉토리** ([.emacs.d/settings/])
    13. [last-settings.el] 실행
    14. \[ _[simple-settings.el]_ ***선택적 실행*** \]
 
@@ -91,58 +91,58 @@
 
 <!-- 상대 경로 정보 -->
 <!-- 상위 디렉토리 정보 -->
-[../caches/]: (../caches)
-[../packages/]: (../packages)
-[../documents/]: (../documents)
+[../caches/]: ../caches
+[../packages/]: ../packages
+[../documents/]: ../documents
 
 <!-- 상위 파일 정보 -->
-[../README.md]: (../README.md)
-[../init.el]: (../init.el)
-[../search.sh]: (../serach.sh)
-[../packages/load-packages.el]: (../packages/load-packages.el)
+[../README.md]: ../README.md
+[../init.el]: ../init.el
+[../search.sh]: ../serach.sh
+[../packages/load-packages.el]: ../packages/load-packages.el
 
 <!-- 현재 디렉토리 정보 -->
-[settings/]: (./)
-[data/]: (data)
-[default/]: (default)
-[keymap/]: (keymap)
-[lib/]: (lib)
-[plugin/]: (plugin)
-[syntax/]: (syntax)
-[test/]: (test)
-[var/]: (var)
+[settings/]: ./
+[data/]: data
+[default/]: default
+[keymap/]: keymap
+[lib/]: lib
+[plugin/]: plugin
+[syntax/]: syntax
+[test/]: test
+[var/]: var
 
 <!-- 현재 파일 정보 -->
-[CHANGELOG.md]: (CHANGELOG.md)
-[ERRORLOG.md]: (ERRORLOG.md)
-[README.md]: (README.md)
-[TODO.org]: (TODO.org)
-[settings.el]: (settings.el)
-[first-settings.el]: (first-settings.el)
-[last-settings.el]: (last-settings.el)
-[customize-settings.el]: (customize-settings.el)
-[simple-settings.el]: (simple-settings.el)
+[CHANGELOG.md]: CHANGELOG.md
+[ERRORLOG.md]: ERRORLOG.md
+[README.md]: README.md
+[TODO.org]: TODO.org
+[settings.el]: settings.el
+[first-settings.el]: first-settings.el
+[last-settings.el]: last-settings.el
+[customize-settings.el]: customize-settings.el
+[simple-settings.el]: simple-settings.el
 
 <!-- 하위 디렉토리 정보 -->
 
 <!-- 하위 파일 정보 -->
-[data/data.el]: (data/data.el)
-[data/README.md]: (data/README.md)
-[default/default.el]: (default/default.el)
-[default/README.md]: (default/README.md)
-[keymap/keymap.el]: (keymap/keymap.el)
-[keymap/README.md]: (keymap/README.md)
-[lib/lib.el]: (lib/lib.el)
-[lib/README.md]: (lib/README.md)
-[plugin/plugin.el]: (plugin/plugin.el)
-[plugin/README.md]: (plugin/README.md)
-[syntax/syntax.el]: (syntax/syntax.el)
-[syntax/README.md]: (syntax/README.md)
-[test/test.el]: (test/test.el)
-[test/README.md]: (test/README.md)
-[var/var.el]: (var/var.el)
-[var/README.md]: (var/README.md)
+[data/data.el]: data/data.el
+[data/README.md]: data/README.md
+[default/default.el]: default/default.el
+[default/README.md]: default/README.md
+[keymap/keymap.el]: keymap/keymap.el
+[keymap/README.md]: keymap/README.md
+[lib/lib.el]: lib/lib.el
+[lib/README.md]: lib/README.md
+[plugin/plugin.el]: plugin/plugin.el
+[plugin/README.md]: plugin/README.md
+[syntax/syntax.el]: syntax/syntax.el
+[syntax/README.md]: syntax/README.md
+[test/test.el]: test/test.el
+[test/README.md]: test/README.md
+[var/var.el]: var/var.el
+[var/README.md]: var/README.md
 
 <!-- 절대 경로 -->
-[.emacs.d/]: (../)
-[.emacs.d/settings/]: (../settings)
+[.emacs.d/]: ../
+[.emacs.d/settings/]: ../settings
