@@ -7,6 +7,15 @@
 
 자세한건 해당 [README.md] 참조.
 
+### 사용법
+---
+[init.el] 에 위치시킬 것.
+
+`
+(add-to-list 'load-path "~/.emacs.d/packages")
+(require 'load-packages)
+`
+
 ### 디렉토리 설명
 ---
 #### [cask/]
@@ -24,10 +33,15 @@
 
 터미널 명령어로 `$ git clone` 를 사용하여 패키지 소스를 다운받을 수 있다.
 
+### 파일 설명
+---
 
 [cask/](cask)
 [elpa/](elpa)
+[github/](github)
 
+[CHANGELOG.md](CHANGELOG.md)
+[load-packages.el](load-packages.el)
 [init.el](../init.el)
 [README.md](../README.md)
 
