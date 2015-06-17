@@ -19,7 +19,7 @@
 	   * 이맥스에서 `customize` 를 이용해 설정된 것으로써 최종적으로 [settings.el] 에서 로딩된다.
 	   * [last-settings.el] 의 다음 순서로 로딩된다.
 
-### 상세
+### 상세 기능 동작
 ---
 현재 디렉토리 [settings/] 는 이맥스 설정의 메인 디렉토리로 볼 수 있다.
 
@@ -30,7 +30,21 @@
 [../init.el] 에서는 [../packages/] 관리까지만 하고 그 다음 단계의 설정은 [settings.el] 로 넘겨주기 때문에 [../packages/] 내의 패키지들은 이맥스 내장 패키지 처럼 작동하게 되어있다.
 
 * 논리적인 로딩 순서
-	1. 
+	1. 상위 디렉토리
+	   1. [../init.el] 실행
+	   2. [../packages/load-packages.el] 실행
+	2. 현재 디렉토리
+	   1. [settings.el] 실행
+	   2. [first-settings.el] 실행
+	5. [var/var.el] 실행
+	6. [lib/lib.el] 실행
+	7. [plugin/plugin.el] 실행
+	8. [data/data.el] 실행
+	9. [default/default.el] 실행
+	10. [keymap/keymap.el] 실행
+	11. [syntax/syntax.el] 실행
+	12. _[test/test.el]_ 선택적 실행
+	13. [last-settings.el] 실행
 
 ### 디렉토리 설명
 ---
@@ -78,6 +92,7 @@
 [../README.md]: (../README.md)
 [../init.el]: (../init.el)
 [../search.sh]: (../serach.sh)
+[../packages/load-packages.el]: (../packages/load-packages.el)
 
 <!-- 현재 디렉토리 정보 -->
 [settings/]: (./)
