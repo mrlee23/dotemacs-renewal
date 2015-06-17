@@ -1,26 +1,28 @@
 ## .emacs.d/settings
 ### 개요
 ---
+#### 설명
 이맥스의 설정 파일이 위치해 있는 디렉토리이다.
 
 [../init.el] 을 제외한 모든 설정파일은 여기에 위치한다.
 
 [../init.el] 로부터 [settings.el] 파일이 가장 처음 불려진다.
 
-* .el 파일이 로딩되는 순서
-	1. [settings.el]
-	   * [../init.el] 파일이 로딩하는 첫번째 파일이다.
-	   * 이 파일은 [settings/] 내의 .el 파일을 논리적 순서에 맞게 로딩한다.
-	2. [first-settings.el]
-	   * [settings.el] 에서 [settings/] 디렉토리 내의 [default/default.el] , [keymap/keymap.el] 등이 실행되기 전에 먼저 실행된다.
-	3. [last-settings.el]
-	   * [settings/] 내에 존재하는 디렉토리 파일들이 모두 실행된 후 실행된다.
-	4. [customize-settings.el]
-	   * 이맥스에서 `customize` 를 이용해 설정된 것으로써 최종적으로 [settings.el] 에서 로딩된다.
-	   * [last-settings.el] 의 다음 순서로 로딩된다.
+#### 파일이 로딩되는 순서
+1. [settings.el]
+   * [../init.el] 파일이 로딩하는 첫번째 파일이다.
+   * 이 파일은 [settings/] 내의 .el 파일을 논리적 순서에 맞게 로딩한다.
+2. [first-settings.el]
+   * [settings.el] 에서 [settings/] 디렉토리 내의 [default/default.el] , [keymap/keymap.el] 등이 실행되기 전에 먼저 실행된다.
+3. [last-settings.el]
+   * [settings/] 내에 존재하는 디렉토리 파일들이 모두 실행된 후 실행된다.
+4. [customize-settings.el]
+   * 이맥스에서 `customize` 를 이용해 설정된 것으로써 최종적으로 [settings.el] 에서 로딩된다.
+   * [last-settings.el] 의 다음 순서로 로딩된다.
 
 ### 상세 기능 동작
 ---
+#### 설명
 현재 디렉토리 [settings/] 는 이맥스 설정의 메인 디렉토리로 볼 수 있다.
 
 [../init.el] 은 이맥스의 시작시 메인 디렉토리로 리다이렉션 하는 역할을 한다.
@@ -29,22 +31,24 @@
 
 [../init.el] 에서는 [../packages/] 관리까지만 하고 그 다음 단계의 설정은 [settings.el] 로 넘겨주기 때문에 [../packages/] 내의 패키지들은 이맥스 내장 패키지 처럼 작동하게 되어있다.
 
-* 논리적인 로딩 순서
+#### 논리적인 로딩 순서
 
-1. 상위 디렉토리
+1. 상위 디렉토리 [.emacs.d/]
    1. [../init.el] 실행
    2. [../packages/load-packages.el] 실행
-2. 현재 디렉토리
-   1. [settings.el] 실행
-   2. [first-settings.el] 실행
-5. [var/var.el] 실행
-6. [lib/lib.el] 실행
-7. [plugin/plugin.el] 실행
-8. [data/data.el] 실행
-9. [default/default.el] 실행
-10. [keymap/keymap.el] 실행
-11. [syntax/syntax.el] 실행
-12. _[test/test.el]_ 선택적 실행
+2. 현재 디렉토리 [.emacs.d/settings/]
+   3. [settings.el] 실행
+   4. [first-settings.el] 실행
+3. 하위 디렉토리
+   5. [var/var.el] 실행
+   6. [lib/lib.el] 실행
+   7. [plugin/plugin.el] 실행
+   8. [data/data.el] 실행
+   9. [default/default.el] 실행
+   10. [keymap/keymap.el] 실행
+   11. [syntax/syntax.el] 실행
+   12. _[test/test.el]_ 선택적 실행
+4. 다시 현재 디렉토리 [.emacs.d/settings/]
 13. [last-settings.el] 실행
 
 ### 디렉토리 설명
@@ -84,6 +88,7 @@
 #### [simple-settings.el]
 
 
+<!-- 상대 경로 정보 -->
 <!-- 상위 디렉토리 정보 -->
 [../caches/]: (../caches)
 [../packages/]: (../packages)
@@ -136,3 +141,7 @@
 [test/README.md]: (test/README.md)
 [var/var.el]: (var/var.el)
 [var/README.md]: (var/README.md)
+
+<!-- 절대 경로 -->
+[.emacs.d/]: (/)
+[.emacs.d/settings/]: (/settings)
