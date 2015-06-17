@@ -50,15 +50,15 @@
 그리고 언제든지 `(require 'package-name)` 을 통해 해당 패키지를 불러올 수 있다.
 
 
-[cask/](cask)
-[elpa/](elpa)
-[github/](github)
+[cask/]: (cask)
+[elpa/]: (elpa)
+[github/]: (github)
 
-[CHANGELOG.md](CHANGELOG.md)
-[load-packages.el](load-packages.el)
-[../init.el](../init.el)
-[../README.md](../README.md)
+[CHANGELOG.md]: (CHANGELOG.md)
+[load-packages.el]: (load-packages.el)
+[../init.el]: (../init.el)
+[../README.md]: (../README.md)
 
-[Cask](https://github.com/cask/cask)
-[Melpa](http://melpa.org)
-[Github](http://www.github.com)
+[Cask]: (https://github.com/cask/cask)
+[Melpa]: (http://melpa.org)
+[Github]: (http://www.github.com)
