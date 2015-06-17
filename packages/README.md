@@ -3,9 +3,9 @@
 ---
 이맥스에 바인딩 되는 외부 패키지를 관리하기 위한 디렉토리이다.
 
-여기에 있는 모든 디렉토리는 가장 처음 [init.el] 에서 파일이 로딩된다.
+여기에 있는 모든 디렉토리는 가장 처음 [../init.el] 에서 파일이 로딩된다.
 
-자세한건 해당 [README.md] 참조.
+자세한건 해당 [../README.md] 참조.
 
 ### 사용법
 ---
@@ -35,7 +35,19 @@
 
 ### 파일 설명
 ---
+#### [CHANGELOG.md]
+[cask/], [elpa/], [github/] 에 패키지가 추가되거나 업데이트 혹은 삭제될 때 마크다운 형식으로 기록된다.
 
+로그 순서는 최근 - 과거 순으로 내림차순이다.
+
+#### [load-packages.el]
+자동으로 관리되는 [cask/], [elpa/] 의 기본 경로 관련 설정과 더불어 수동으로 관리하는 [github/] 의 패키지를 로드한다.
+
+또한 `(require 'package)` 와 같은 이맥스 내장 `package` 의 설정 역시 이 파일에서 이루어진다.
+
+사용법에서 기술한 것과 같이 이 파일을 로드하면 **packages/** 의 모든 패키지가 이맥스 현재 세션의 `'load-path` 에 추가된다.
+
+그리고 언제든지 `(require 'package-name)` 을 통해 해당 패키지를 불러올 수 있다.
 
 [cask/](cask)
 [elpa/](elpa)
@@ -43,8 +55,8 @@
 
 [CHANGELOG.md](CHANGELOG.md)
 [load-packages.el](load-packages.el)
-[init.el](../init.el)
-[README.md](../README.md)
+[../init.el](../init.el)
+[../README.md](../README.md)
 
 [Cask](https://github.com/cask/cask)
 [Melpa](http://melpa.org)
