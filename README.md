@@ -9,20 +9,20 @@
 
 ### 디렉토리 설명
 ---
-#### [Caches/]("Caches")
+#### [Caches/](Caches)
 이맥스를 실행하는 동안 이맥스의 각종 모드들이 자동으로 생성하는 캐시파일들이
 저장되는 곳이다.
 
-#### [Documents/]("Documents")
+#### [Documents/](Documents)
 맥 OS의 /User/username/Documents 와 같은 개념으로, 사용자의 모든 문서를 이맥스
 내에서 관리하기 위해 만들어진 디렉토리이다.
 
 주로 org 모드를 사용한다.
 
-#### [Packages/]("Packages")
+#### [Packages/](Packages)
 각종 외부 패키지 관리를 위한 디렉토리이다.
 
-#### [Settings/]("Settings")
+#### [Settings/](Settings)
 이맥스의 개인 설정 파일이 들어가 있는 곳으로써, 모든 이맥스 관련 설정은 이
 디렉토리에 있다.
 
@@ -30,13 +30,13 @@
 
 ### 파일 설명
 ---
-#### [README.md]("README.md")
+#### [README.md](README.md)
 이 디렉토리에 관한 설명. 해당 파일.
 
-#### [init.el]("init.el")
+#### [init.el](init.el)
 이맥스를 실행하면 가장 처음 불러오는 파일이다.
 
-#### [search.sh]("search.sh")
+#### [search.sh](search.sh)
 **.emacs.d/**내의 파일을 검색하기 위한 쉘 스크립트 명령어이다.
 아직은 기능이 약하다.
 추후 추가할 기능 (옵션)
