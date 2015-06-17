@@ -9,20 +9,20 @@
 
 ### 디렉토리 설명
 ---
-#### [Caches/](Caches)
+#### [caches/](Caches)
 이맥스를 실행하는 동안 이맥스의 각종 모드들이 자동으로 생성하는 캐시파일들이
 저장되는 곳이다.
 
-#### [Documents/](Documents)
+#### [documents/](Documents)
 맥 OS의 /User/username/Documents 와 같은 개념으로, 사용자의 모든 문서를 이맥스
 내에서 관리하기 위해 만들어진 디렉토리이다.
 
 주로 org 모드를 사용한다.
 
-#### [Packages/](Packages)
+#### [packages/](Packages)
 각종 외부 패키지 관리를 위한 디렉토리이다.
 
-#### [Settings/](Settings)
+#### [settings/](Settings)
 이맥스의 개인 설정 파일이 들어가 있는 곳으로써, 모든 이맥스 관련 설정은 이
 디렉토리에 있다.
 
