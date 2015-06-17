@@ -33,10 +33,10 @@
 
 #### 논리적인 로딩 순서
 
-1. **상위 디렉토리** ([.emacs.d/])
+1. **상위 디렉토리** ( [.emacs.d/] )
    1. [../init.el] 실행
    2. [../packages/load-packages.el] 실행
-2. **현재 디렉토리** ([.emacs.d/settings/])
+2. **현재 디렉토리** ( [.emacs.d/settings/] )
    3. [settings.el] 실행
    4. [first-settings.el] 실행
 3. **하위 디렉토리**
@@ -48,7 +48,7 @@
    10. [keymap/keymap.el] 실행
    11. [syntax/syntax.el] 실행
    12. \[ _[test/test.el]_ ***선택적 실행*** \]
-4. **다시 현재 디렉토리** ([.emacs.d/settings/])
+4. **다시 현재 디렉토리** ( [.emacs.d/settings/] )
    13. [last-settings.el] 실행
    14. \[ _[simple-settings.el]_ ***선택적 실행*** \]
 
