@@ -9,15 +9,15 @@
 
 * .el 파일이 로딩되는 순서
 	1. [settings.el]
-	* [../init.el] 파일이 로딩하는 첫번째 파일이다.
-	* 이 파일은 [settings/] 내의 .el 파일을 논리적 순서에 맞게 로딩한다.
+	   * [../init.el] 파일이 로딩하는 첫번째 파일이다.
+	   * 이 파일은 [settings/] 내의 .el 파일을 논리적 순서에 맞게 로딩한다.
 	2. [first-settings.el]
-	* [settings.el] 에서 [settings/] 디렉토리 내의 [default/default.el] , [keymap/keymap.el] 등이 실행되기 전에 먼저 실행된다.
+	   * [settings.el] 에서 [settings/] 디렉토리 내의 [default/default.el] , [keymap/keymap.el] 등이 실행되기 전에 먼저 실행된다.
 	3. [last-settings.el]
-	* [settings/] 내에 존재하는 디렉토리 파일들이 모두 실행된 후 실행된다.
+	   * [settings/] 내에 존재하는 디렉토리 파일들이 모두 실행된 후 실행된다.
 	4. [customize-settings.el]
-	* 이맥스에서 `customize` 를 이용해 설정된 것으로써 최종적으로 [settings.el] 에서 로딩된다.
-	* [last-settings.el] 의 다음 순서로 로딩된다.
+	   * 이맥스에서 `customize` 를 이용해 설정된 것으로써 최종적으로 [settings.el] 에서 로딩된다.
+	   * [last-settings.el] 의 다음 순서로 로딩된다.
 
 ### 상세
 ---
@@ -52,8 +52,6 @@
 
 ### 파일 설명
 ---
-#### [README.md]
-
 #### [CHANGELOG.md]
 
 #### [ERRORLOG.md]
@@ -95,11 +93,13 @@
 <!-- 현재 파일 정보 -->
 [CHANGELOG.md]: (CHANGELOG.md)
 [ERRORLOG.md]: (ERRORLOG.md)
+[README.md]: (README.md)
 [TODO.org]: (TODO.org)
 [settings.el]: (settings.el)
 [first-settings.el]: (first-settings.el)
 [last-settings.el]: (last-settings.el)
 [customize-settings.el]: (customize-settings.el)
+[simple-settings.el]: (simple-settings.el)
 
 <!-- 하위 디렉토리 정보 -->
 
