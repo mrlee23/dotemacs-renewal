@@ -1,4 +1,4 @@
-## .emacs.d/packages
+## .emacs.d/packages/
 ### 개요
 ---
 이맥스에 바인딩 되는 외부 패키지를 관리하기 위한 디렉토리이다.

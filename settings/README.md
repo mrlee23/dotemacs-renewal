@@ -1,4 +1,4 @@
-## .emacs.d/settings
+## .emacs.d/settings/
 ### 개요
 ---
 #### 설명
