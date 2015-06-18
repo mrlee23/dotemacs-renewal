@@ -21,4 +21,63 @@
 
 #### 디렉토리 설명
 ---
-#### ./diary
+#### [diary/]
+일지, 일기장 등등을 저장하는 디렉토리이다.
+
+프로젝트 관련 일지와 느낀점, 하루의 일기 등등이 들어가 있다.
+
+**요소**
+
+* 일기
+
+* 꿈일기
+
+* 프로젝트 일지
+
+* 하루 로그
+
+#### [project/]
+각종 프로젝트 관련 문서를 저장하는 디렉토리이다.
+
+문서와 더불어 소스코드 역시 저장할 수 있다.
+
+**<요소>**
+
+* TriangleFramework
+* DailyLanguage
+
+#### [references/]
+프로그래밍 명령어, 각종 참조 자료 등등이 들어가 있는 곳이다.
+
+**<요소>**
+
+
+
+<!-- 내부 링크 -->
+<!-- 상대 경로 정보 -->
+<!-- 상위 디렉토리 정보 -->
+[caches/]: ../caches
+[packages/]: ../packages
+[documents/]: ../documents
+[settings/]: ../settings
+
+<!-- 상위 파일 정보 -->
+[../README.md]: ../README.md
+[init.el]: ../init.el
+[search.sh]: ../serach.sh
+[load-packages.el]: ../packages/load-packages.el
+
+<!-- 현재 디렉토리 정보 -->
+
+
+<!-- 현재 파일 정보 -->
+[README.md]: README.md
+
+<!-- 하위 디렉토리 정보 -->
+[diary/]: diary
+[project/]: project
+[references/]: references
+
+<!-- 하위 파일 정보 -->
+
+<!-- 외부 링크 -->
